@@ -7,7 +7,8 @@ Laravel Countries API application
 
 ## Available methods
 
-
+- /api/countries (GET) - List of all countries statistic 
+- /api/countries (POST) (*require parametr in POST body - 'country') - Add new entry in countries statistic
 
 ## License
 
