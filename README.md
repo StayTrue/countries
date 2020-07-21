@@ -19,7 +19,8 @@ git submodule init
 ``` bash
 cd laradock && cp env-example .env && docker-compose up -d nginx mysql phpmyadmin redis workspace 
 ```
-- **Edit the env file depends on your data, exec workspace container and init laravel application
+
+- **Edit the env file depends on your data, exec workspace container and init laravel application**
 
 ```bash
 composer install && php artisan key:generate
